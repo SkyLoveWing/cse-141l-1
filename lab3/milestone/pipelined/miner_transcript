@@ -1,0 +1,160 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl 
+# reading C:\altera\14.1\modelsim_ase\win32aloem/../modelsim.ini
+# Loading project lab3
+# Compile of alu.sv was successful.
+# Compile of cl_decode.sv was successful.
+# Compile of cl_state_machine.sv was successful.
+# Compile of core.sv was successful.
+# Compile of core_flattened.sv was successful.
+# Compile of core_tb.sv was successful.
+# Compile of data_mem.sv was successful.
+# Compile of definitions.sv was successful.
+# Compile of disassemble.sv was successful.
+# Compile of instr_mem.sv was successful.
+# Compile of miner_tb.sv was successful.
+# Compile of net_packet_logger_s.sv was successful.
+# Compile of reg_file.sv was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim work.miner_tb
+# vsim work.miner_tb 
+# Loading sv_std.std
+# Loading work.miner_tb_sv_unit
+# Loading work.miner_tb
+# Loading work.data_mem_sv_unit
+# Loading work.data_mem
+# Loading work.core_flattened_sv_unit
+# Loading work.core_flattened
+# Loading work.core_sv_unit
+# Loading work.core
+# Loading work.instr_mem_sv_unit
+# Loading work.instr_mem
+# Loading work.reg_file
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.cl_decode_sv_unit
+# Loading work.cl_decode
+# Loading work.cl_state_machine_sv_unit
+# Loading work.cl_state_machine
+add wave -position end  sim:/miner_tb/instr_length_p
+add wave -position end  sim:/miner_tb/instr_buffer_size_p
+add wave -position end  sim:/miner_tb/data_buffer_size_p
+add wave -position end  sim:/miner_tb/reg_packet_width_p
+add wave -position end  sim:/miner_tb/clk
+add wave -position end  sim:/miner_tb/reset
+add wave -position end  sim:/miner_tb/reset_r
+add wave -position end  sim:/miner_tb/i
+add wave -position end  sim:/miner_tb/ins_packet
+add wave -position end  sim:/miner_tb/data_packet
+add wave -position end  sim:/miner_tb/reg_packet
+add wave -position end  sim:/miner_tb/instruct_t
+add wave -position end  sim:/miner_tb/mem_in2
+add wave -position end  sim:/miner_tb/mem_in1
+add wave -position end  sim:/miner_tb/mem_in
+add wave -position end  sim:/miner_tb/mem_in1_flat
+add wave -position end  sim:/miner_tb/mem_in_flat
+add wave -position end  sim:/miner_tb/mem_out
+add wave -position end  sim:/miner_tb/mem_out_flat
+add wave -position end  sim:/miner_tb/select
+add wave -position end  sim:/miner_tb/data_mem_addr
+add wave -position end  sim:/miner_tb/data_mem_addr1
+add wave -position end  sim:/miner_tb/data_mem_addr2
+add wave -position end  sim:/miner_tb/core_in
+add wave -position end  sim:/miner_tb/core_out
+add wave -position end  sim:/miner_tb/packet
+add wave -position end  sim:/miner_tb/core_in_flat
+add wave -position end  sim:/miner_tb/core_out_flat
+add wave -position end  sim:/miner_tb/barrier_OR
+add wave -position end  sim:/miner_tb/debug
+add wave -position end  sim:/miner_tb/exception
+add wave -position end  sim:/miner_tb/instruction_counter
+add wave -position end  sim:/miner_tb/cycle_counter_r
+add wave -position end  sim:/miner_tb/pass_fail_code_done
+add wave -position end  sim:/miner_tb/stop_simulator
+run -all
+# [*] Finished Initializing Core and Memory
+# -------- START MINING ---------
+# [*] Finished loading Block Header and Midstate
+# [*] Initializing Miner with Nonce = 0x000000000
+# CODE: 0xddc37ea5 3720576677 (CYCLE 0x00005097      20631)
+# CODE: 0x4444190c 1145313548 (CYCLE 0x0000509a      20634)
+# CODE: 0x21158168  555057512 (CYCLE 0x0000509d      20637)
+# CODE: 0x48fcdb9a 1224530842 (CYCLE 0x000050a0      20640)
+# CODE: 0xd1c40be4 3519286244 (CYCLE 0x000050a3      20643)
+# CODE: 0x039db8e4   60668132 (CYCLE 0x000050a6      20646)
+# CODE: 0xb32b4364 3005956964 (CYCLE 0x000050a9      20649)
+# CODE: 0xe0ded03d 3772698685 (CYCLE 0x000050ac      20652)
+# [*] Trying a new Nonce = 0x000000001
+# CODE: 0xa889120a 2827555338 (CYCLE 0x0000a105      41221)
+# CODE: 0xa8fd3c0c 2835168268 (CYCLE 0x0000a108      41224)
+# CODE: 0xd181f9f0 3514956272 (CYCLE 0x0000a10b      41227)
+# CODE: 0x55050ba7 1426394023 (CYCLE 0x0000a10e      41230)
+# CODE: 0x81a2ae48 2174922312 (CYCLE 0x0000a111      41233)
+# CODE: 0x951ffab0 2501900976 (CYCLE 0x0000a114      41236)
+# CODE: 0x7217ad6c 1914154348 (CYCLE 0x0000a117      41239)
+# CODE: 0x4efa9336 1325044534 (CYCLE 0x0000a11a      41242)
+# [*] Trying a new Nonce = 0x000000002
+# CODE: 0xc3f08a94 3287321236 (CYCLE 0x0000f173      61811)
+# CODE: 0xcc64831e 3429139230 (CYCLE 0x0000f176      61814)
+# CODE: 0x8c4bc02b 2353774635 (CYCLE 0x0000f179      61817)
+# CODE: 0xf56f1607 4117698055 (CYCLE 0x0000f17c      61820)
+# CODE: 0x53191e80 1394155136 (CYCLE 0x0000f17f      61823)
+# CODE: 0x29356710  691365648 (CYCLE 0x0000f182      61826)
+# CODE: 0xc579d169 3313095017 (CYCLE 0x0000f185      61829)
+# CODE: 0x5c2044de 1545618654 (CYCLE 0x0000f188      61832)
+# [*] Trying a new Nonce = 0x000000003
+# CODE: 0x4f85cb58 1334168408 (CYCLE 0x000141e1      82401)
+# CODE: 0x84af6503 2226087171 (CYCLE 0x000141e4      82404)
+# CODE: 0xfa64be68 4200906344 (CYCLE 0x000141e7      82407)
+# CODE: 0x407113d2 1081152466 (CYCLE 0x000141ea      82410)
+# CODE: 0x14f1b621  351385121 (CYCLE 0x000141ed      82413)
+# CODE: 0x23a5b58a  598062474 (CYCLE 0x000141f0      82416)
+# CODE: 0x389e47ef  949897199 (CYCLE 0x000141f3      82419)
+# CODE: 0x38486728  944269096 (CYCLE 0x000141f6      82422)
+# [*] Trying a new Nonce = 0x000000004
+# CODE: 0x8b3d6277 2336055927 (CYCLE 0x0001924f     102991)
+# CODE: 0xd4ee161b 3572373019 (CYCLE 0x00019252     102994)
+# CODE: 0x0f00b0f2  251703538 (CYCLE 0x00019255     102997)
+# CODE: 0x5616d623 1444337187 (CYCLE 0x00019258     103000)
+# CODE: 0x4de38055 1306755157 (CYCLE 0x0001925b     103003)
+# CODE: 0x8757747d 2270655613 (CYCLE 0x0001925e     103006)
+# CODE: 0x4b3cfbb7 1262287799 (CYCLE 0x00019261     103009)
+# CODE: 0x736aa806 1936369670 (CYCLE 0x00019264     103012)
+# [*] Trying a new Nonce = 0x000000005
+# CODE: 0x71a7baf9 1906817785 (CYCLE 0x0001e2bd     123581)
+# CODE: 0x7b62be6e 2070068846 (CYCLE 0x0001e2c0     123584)
+# CODE: 0xcc85d8d1 3431323857 (CYCLE 0x0001e2c3     123587)
+# CODE: 0x12b078f5  313555189 (CYCLE 0x0001e2c6     123590)
+# CODE: 0x1b9230f0  462565616 (CYCLE 0x0001e2c9     123593)
+# CODE: 0xd469b776 3563698038 (CYCLE 0x0001e2cc     123596)
+# CODE: 0xefeba5c3 4025198019 (CYCLE 0x0001e2cf     123599)
+# CODE: 0xceea072b 3471443755 (CYCLE 0x0001e2d2     123602)
+# [*] Trying a new Nonce = 0x000000006
+# CODE: 0xf154e135 4048871733 (CYCLE 0x0002332b     144171)
+# CODE: 0xd661fa19 3596745241 (CYCLE 0x0002332e     144174)
+# CODE: 0xd6e8c985 3605580165 (CYCLE 0x00023331     144177)
+# CODE: 0x8e92c7ca 2391984074 (CYCLE 0x00023334     144180)
+# CODE: 0xf51a5692 4112144018 (CYCLE 0x00023337     144183)
+# CODE: 0x27556143  659906883 (CYCLE 0x0002333a     144186)
+# CODE: 0xc8d6f212 3369529874 (CYCLE 0x0002333d     144189)
+# CODE: 0xfe64ce6d 4268019309 (CYCLE 0x00023340     144192)
+# [*] Trying a new Nonce = 0x000000007
+# CODE: 0x6c1e45de 1813923294 (CYCLE 0x00028399     164761)
+# CODE: 0xcdb383e4 3451093988 (CYCLE 0x0002839c     164764)
+# CODE: 0x72f7fec4 1928855236 (CYCLE 0x0002839f     164767)
+# CODE: 0x49148eeb 1226084075 (CYCLE 0x000283a2     164770)
+# CODE: 0x77c0a936 2009114934 (CYCLE 0x000283a5     164773)
+# CODE: 0x892cf7f3 2301425651 (CYCLE 0x000283a8     164776)
+# CODE: 0x67dcdfd1 1742528465 (CYCLE 0x000283ab     164779)
+# CODE: 0x5f842def 1602498031 (CYCLE 0x000283ae     164782)
+# [*] Trying a new Nonce = 0x000000008
+# CODE: 0x1404b3fa  335852538 (CYCLE 0x0002d407     185351)
+# CODE: 0xf3588faa 4082667434 (CYCLE 0x0002d40a     185354)
+# CODE: 0xbc10367d 3155179133 (CYCLE 0x0002d40d     185357)
+# CODE: 0xf5f485ed 4126442989 (CYCLE 0x0002d410     185360)
+# CODE: 0x22261d69  572923241 (CYCLE 0x0002d413     185363)
+# CODE: 0x0687047c  109511804 (CYCLE 0x0002d416     185366)
+# CODE: 0xb48dd548 3029194056 (CYCLE 0x0002d419     185369)
+# CODE: 0xd6054d80 3590671744 (CYCLE 0x0002d41c     185372)
+# [*] BTC Found!
+# DONE: 0x00000000          0 (CYCLE 0x0002d43a     185402)
+# Break in Module miner_tb at C:/Users/Chris/Desktop/Lab3/modelsim/miner_tb.sv line 404
